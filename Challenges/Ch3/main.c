@@ -1,5 +1,6 @@
 int x = 0;
 
+//reference the function in display.c
 extern void display();
 
 int main() {
