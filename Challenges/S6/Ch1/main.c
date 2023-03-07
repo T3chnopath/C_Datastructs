@@ -1,15 +1,16 @@
-:#include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int size = 0;
     int sum = 0;
     printf("Enter size of array: \n");
     scanf("%d", &size);
+    printf("\n");
 
     int arr[size];
     
+    printf("Enter element: \n");    
     for(int x = 0; x < size; x++) {
-        printf("Enter element: \n");
         scanf("%d", &arr[x]);
     }
 
@@ -17,7 +18,7 @@ int main() {
         sum += arr[x];
     }
 
-    printf("Sum: %d", sum);
+    printf("Sum: %d\n", sum);
     
     return 0;
 }
